@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  border-bottom: 1px solid $light-gray;
+}
+
+.navigation ul {
+  display: flex;
+  margin: 0 auto;
+}
+
+.navigation li {
+  margin: 10px;
+}
+
+.navigation a:hover {
+  background: $light-gray;
+}

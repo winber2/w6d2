@@ -1,0 +1,118 @@
+.col {
+  font-family: georgia;
+  font-size: 12px;
+}
+
+.col h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.col strong {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.col block {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 15px;
+  border-top: 1px solid $light-gray;
+}
+.col-20 ul li {
+  margin-left: 15px;
+  list-style: disc;
+}
+
+.col comment {
+  display: block;
+  padding-bottom: 10px
+}
+
+.col author {
+  color: $light-gray;
+  font-size: 10px;
+  line-height: 2;
+}
+
+.col p {
+  padding-bottom: 15px;
+}
+
+.col iframe {
+  width: 100%;
+  height: auto;
+}
+
+.col-30 > strong {
+  display: block;
+  height: 20px;
+  text-align: center;
+}
+
+.col-30 > ul {
+  display: flex;
+  overflow: hidden;
+}
+
+.flex > li {
+  flex: 1;
+}
+
+.col-30 p, .col-30 input, .col-30 small {
+  display: block;
+}
+
+.col-30 p {
+  padding: 0;
+}
+
+.not-flex li {
+  margin-left: 15px;
+  list-style: disc;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.thumbnail img {
+  height: 100%;
+  object-fit: cover;
+}
+
+small {
+  display: block;
+  text-align: center;
+  font-size: 9px;
+  color: $light-gray;
+}
+
+.col input {
+  border: 1px solid $gray;
+  font-size: 12px;
+  flex: 1;
+  border-radius: 3px;
+}
+
+p.bullet {
+  color: $light-blue;
+}
+
+p.bullet:before {
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;
+  height: 3px;
+  width: 5px;
+  background-color: $light-blue;
+}
+
+.input {
+  display: flex;
+}

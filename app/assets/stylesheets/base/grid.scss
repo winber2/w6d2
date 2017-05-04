@@ -1,0 +1,34 @@
+.col {
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Attribute selector targeting all elements
+with a class attribute containing 'col-' */
+
+.col-20 {
+  width: 20%;
+}
+
+.col-50 {
+  width: 45%;
+}
+
+.col-30 {
+  width: 35%;
+}
+
+[class*='col-'] {
+  // ...
+}
+
+[class*='col-']:last-of-type {
+  // ...
+}
+
+@media all and (max-width: 1000px) {
+  [class*='col-'] {
+    width: 500px;
+  }
+}
